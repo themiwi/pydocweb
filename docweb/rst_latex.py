@@ -13,8 +13,7 @@ OUT_PATH = "/var/www-pub/root/pTSc0V/testwiki/math"
 OUT_URI_BASE = "http://192.168.0.100/pTSc0V/testwiki/math/"
 
 DVIPNG = "dvipng"
-LIMITED_LATEX = os.path.join(os.path.abspath(os.path.dirname(__file__)),
-                             "../scripts/limited-latex.py")
+LIMITED_LATEX = "latex"
 LATEX_TEMPLATE = r"""
 \documentclass[10pt]{article}
 \pagestyle{empty}
